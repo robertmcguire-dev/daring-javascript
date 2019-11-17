@@ -2,6 +2,6 @@
 var scope = 'outer_scope'
 function scoper (val = scope) {
   scope = 'inner_scope'
-  console.log(val) 
+  console.log(val) // outer_scope
 }
-scoper() // outer_scope
+scoper() 
